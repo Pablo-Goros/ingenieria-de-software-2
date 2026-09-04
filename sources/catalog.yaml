@@ -1,1 +1,129 @@
-sources: []
+sources:
+  - id: OFF-001
+    title: "Apuntes clase 1"
+    type: official
+    path: "official/Apuntes clase 1.pdf"
+    extracted: "extracted/OFF-001.md"
+  - id: OFF-002
+    title: "Apuntes clase 2"
+    type: official
+    path: "official/Apuntes clase 2.pdf"
+    extracted: "extracted/OFF-002.md"
+  - id: OFF-003
+    title: "Apuntes clase 4 (2)"
+    type: official
+    path: "official/Apuntes clase 4 (2).pdf"
+    extracted: "extracted/OFF-003.md"
+  - id: OFF-004
+    title: "Apuntes clase 4"
+    type: official
+    path: "official/Apuntes clase 4.pdf"
+    extracted: "extracted/OFF-004.md"
+  - id: OFF-005
+    title: "Apuntes clases 3"
+    type: official
+    path: "official/Apuntes clases 3.pdf"
+    extracted: "extracted/OFF-005.md"
+  - id: OFF-006
+    title: "Clase 1 - intro IS"
+    type: official
+    path: "official/Clase 1 - intro IS.pdf"
+    extracted: "extracted/OFF-006.md"
+  - id: OFF-007
+    title: "Clase 2 - metodologias"
+    type: official
+    path: "official/clase 2 - metodologias.pptx (1).pdf"
+    extracted: "extracted/OFF-007.md"
+  - id: OFF-008
+    title: "Clase 3 - productos digitales"
+    type: official
+    path: "official/clase 3 - productos digitales.pptx.pdf"
+    extracted: "extracted/OFF-008.md"
+  - id: OFF-009
+    title: "Clase 4 - estimadores v2"
+    type: official
+    path: "official/clase 4 estimadores v2.pdf"
+    extracted: "extracted/OFF-009.md"
+  - id: OFF-010
+    title: "Clase 6 - calidad"
+    type: official
+    path: "official/clase 6 - calidad.pptx (1).pdf"
+    extracted: "extracted/OFF-010.md"
+  - id: EXT-001
+    title: "Inge II - Apuntes"
+    type: external
+    path: "external/Inge II - Apuntes.docx"
+    extracted: "extracted/EXT-001.md"
+  - id: EXT-002
+    title: "WhatsApp Image 2026-09-02 at 12.51.05"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.05.jpeg"
+  - id: EXT-003
+    title: "WhatsApp Image 2026-09-02 at 12.51.06"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.06.jpeg"
+  - id: EXT-004
+    title: "WhatsApp Image 2026-09-02 at 12.51.07 (1)"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.07 (1).jpeg"
+  - id: EXT-005
+    title: "WhatsApp Image 2026-09-02 at 12.51.07"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.07.jpeg"
+  - id: EXT-006
+    title: "WhatsApp Image 2026-09-02 at 12.51.08 (1)"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.08 (1).jpeg"
+  - id: EXT-007
+    title: "WhatsApp Image 2026-09-02 at 12.51.08 (2)"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.08 (2).jpeg"
+  - id: EXT-008
+    title: "WhatsApp Image 2026-09-02 at 12.51.08"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.08.jpeg"
+  - id: EXT-009
+    title: "WhatsApp Image 2026-09-02 at 12.51.09 (1)"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.09 (1).jpeg"
+  - id: EXT-010
+    title: "WhatsApp Image 2026-09-02 at 12.51.09"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.09.jpeg"
+  - id: EXT-011
+    title: "WhatsApp Image 2026-09-02 at 12.51.10 (1)"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.10 (1).jpeg"
+  - id: EXT-012
+    title: "WhatsApp Image 2026-09-02 at 12.51.10"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.10.jpeg"
+  - id: EXT-013
+    title: "WhatsApp Image 2026-09-02 at 12.51.11"
+    type: external
+    path: "external/WhatsApp Image 2026-09-02 at 12.51.11.jpeg"
+  - id: EXT-014
+    title: "Clase 1 - introducción a IS (alcance anotado del primer parcial)"
+    type: external
+    path: "external/Clase 1 - intro IS (1).pdf"
+    extracted: "extracted/EXT-014.md"
+  - id: EXT-015
+    title: "Clase 2 - metodologías (alcance anotado del primer parcial)"
+    type: external
+    path: "external/clase 2 - metodologias.pptx (2).pdf"
+    extracted: "extracted/EXT-015.md"
+  - id: EXT-016
+    title: "Clase 3 - productos digitales (alcance anotado del primer parcial)"
+    type: external
+    path: "external/clase 3 - productos digitales.pptx (1).pdf"
+    extracted: "extracted/EXT-016.md"
+  - id: EXT-017
+    title: "Clase 4 - estimadores (alcance anotado del primer parcial)"
+    type: external
+    path: "external/clase 4 estimadores v2 (1).pdf"
+    extracted: "extracted/EXT-017.md"
+  - id: EXT-018
+    title: "Clase 6 - calidad (alcance anotado del primer parcial)"
+    type: external
+    path: "external/clase 6 - calidad.pptx (1) (1).pdf"
+    extracted: "extracted/EXT-018.md"
