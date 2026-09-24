@@ -35,9 +35,10 @@
 - [Deuda técnica](topics/deuda-tecnica.md)
 - [Aseguramiento, control y pruebas](topics/aseguramiento-control-y-pruebas.md)
 
-## Arquitectura e integración (material externo)
+## Arquitectura e integración
 
 - [Arquitectura de software](topics/arquitectura-de-software.md)
 - [Documentación de arquitectura](topics/documentacion-de-arquitectura.md)
+- [Estilos de arquitectura](topics/estilos-de-arquitectura.md)
 - [Persistencia de datos](topics/persistencia-de-datos.md)
 - [Integración de sistemas](topics/integracion-de-sistemas.md)

@@ -49,6 +49,26 @@ sources:
     type: official
     path: "official/clase 6 - calidad.pptx (1).pdf"
     extracted: "extracted/OFF-010.md"
+  - id: OFF-011
+    title: "Architectural Blueprints—The ‘4+1’ View Model of Software Architecture"
+    type: official
+    path: "official/The_41_View_Model_of_Architecture.pdf"
+    extracted: "extracted/OFF-011.md"
+  - id: OFF-012
+    title: "The Rational Unified Process with the ‘4+1’ View Model of Software Architecture: A Way for Modeling Web Applications"
+    type: official
+    path: "official/The_Rational_Unified_Process_with_the_41_View_Mode.pdf"
+    extracted: "extracted/OFF-012.md"
+  - id: OFF-013
+    title: "Clase 8 - Atributos de calidad"
+    type: official
+    path: "official/clase 8 - atributos de calidad.pdf"
+    extracted: "extracted/OFF-013.md"
+  - id: OFF-014
+    title: "Clase 8 - Estilos de arquitectura"
+    type: official
+    path: "official/clase 8 - estilos de arquitectura.pptx.pdf"
+    extracted: "extracted/OFF-014.md"
   - id: EXT-001
     title: "Inge II - Apuntes"
     type: external

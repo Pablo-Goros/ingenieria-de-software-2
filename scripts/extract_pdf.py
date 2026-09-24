@@ -30,6 +30,7 @@ def parse_args() -> argparse.Namespace:
 
 def normalize_text(text: str) -> str:
     """Normalize line endings and trailing whitespace without interpreting text."""
+    text = text.replace("\x00", "")
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     lines = [line.rstrip() for line in text.split("\n")]
     while lines and not lines[0]:
