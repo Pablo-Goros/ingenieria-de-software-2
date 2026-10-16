@@ -1,149 +1,91 @@
 sources:
-  - id: OFF-001
-    title: "Apuntes clase 1"
-    type: official
-    path: "official/Apuntes clase 1.pdf"
-    extracted: "extracted/OFF-001.md"
-  - id: OFF-002
-    title: "Apuntes clase 2"
-    type: official
-    path: "official/Apuntes clase 2.pdf"
-    extracted: "extracted/OFF-002.md"
-  - id: OFF-003
-    title: "Apuntes clase 4 (2)"
-    type: official
-    path: "official/Apuntes clase 4 (2).pdf"
-    extracted: "extracted/OFF-003.md"
-  - id: OFF-004
-    title: "Apuntes clase 4"
-    type: official
-    path: "official/Apuntes clase 4.pdf"
-    extracted: "extracted/OFF-004.md"
-  - id: OFF-005
-    title: "Apuntes clases 3"
-    type: official
-    path: "official/Apuntes clases 3.pdf"
-    extracted: "extracted/OFF-005.md"
-  - id: OFF-006
-    title: "Clase 1 - intro IS"
-    type: official
-    path: "official/Clase 1 - intro IS.pdf"
-    extracted: "extracted/OFF-006.md"
-  - id: OFF-007
-    title: "Clase 2 - metodologias"
-    type: official
-    path: "official/clase 2 - metodologias.pptx (1).pdf"
-    extracted: "extracted/OFF-007.md"
-  - id: OFF-008
-    title: "Clase 3 - productos digitales"
-    type: official
-    path: "official/clase 3 - productos digitales.pptx.pdf"
-    extracted: "extracted/OFF-008.md"
-  - id: OFF-009
-    title: "Clase 4 - estimadores v2"
-    type: official
-    path: "official/clase 4 estimadores v2.pdf"
-    extracted: "extracted/OFF-009.md"
-  - id: OFF-010
-    title: "Clase 6 - calidad"
-    type: official
-    path: "official/clase 6 - calidad.pptx (1).pdf"
-    extracted: "extracted/OFF-010.md"
-  - id: OFF-011
-    title: "Architectural Blueprints—The ‘4+1’ View Model of Software Architecture"
-    type: official
-    path: "official/The_41_View_Model_of_Architecture.pdf"
-    extracted: "extracted/OFF-011.md"
-  - id: OFF-012
-    title: "The Rational Unified Process with the ‘4+1’ View Model of Software Architecture: A Way for Modeling Web Applications"
-    type: official
-    path: "official/The_Rational_Unified_Process_with_the_41_View_Mode.pdf"
-    extracted: "extracted/OFF-012.md"
-  - id: OFF-013
-    title: "Clase 8 - Atributos de calidad"
-    type: official
-    path: "official/clase 8 - atributos de calidad.pdf"
-    extracted: "extracted/OFF-013.md"
-  - id: OFF-014
-    title: "Clase 8 - Estilos de arquitectura"
-    type: official
-    path: "official/clase 8 - estilos de arquitectura.pptx.pdf"
-    extracted: "extracted/OFF-014.md"
-  - id: EXT-001
-    title: "Inge II - Apuntes"
-    type: external
-    path: "external/Inge II - Apuntes.docx"
-    extracted: "extracted/EXT-001.md"
-  - id: EXT-002
-    title: "WhatsApp Image 2026-09-02 at 12.51.05"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.05.jpeg"
-  - id: EXT-003
-    title: "WhatsApp Image 2026-09-02 at 12.51.06"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.06.jpeg"
-  - id: EXT-004
-    title: "WhatsApp Image 2026-09-02 at 12.51.07 (1)"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.07 (1).jpeg"
-  - id: EXT-005
-    title: "WhatsApp Image 2026-09-02 at 12.51.07"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.07.jpeg"
-  - id: EXT-006
-    title: "WhatsApp Image 2026-09-02 at 12.51.08 (1)"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.08 (1).jpeg"
-  - id: EXT-007
-    title: "WhatsApp Image 2026-09-02 at 12.51.08 (2)"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.08 (2).jpeg"
-  - id: EXT-008
-    title: "WhatsApp Image 2026-09-02 at 12.51.08"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.08.jpeg"
-  - id: EXT-009
-    title: "WhatsApp Image 2026-09-02 at 12.51.09 (1)"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.09 (1).jpeg"
-  - id: EXT-010
-    title: "WhatsApp Image 2026-09-02 at 12.51.09"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.09.jpeg"
-  - id: EXT-011
-    title: "WhatsApp Image 2026-09-02 at 12.51.10 (1)"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.10 (1).jpeg"
-  - id: EXT-012
-    title: "WhatsApp Image 2026-09-02 at 12.51.10"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.10.jpeg"
-  - id: EXT-013
-    title: "WhatsApp Image 2026-09-02 at 12.51.11"
-    type: external
-    path: "external/WhatsApp Image 2026-09-02 at 12.51.11.jpeg"
-  - id: EXT-014
-    title: "Clase 1 - introducción a IS (alcance anotado del primer parcial)"
-    type: external
-    path: "external/Clase 1 - intro IS (1).pdf"
-    extracted: "extracted/EXT-014.md"
-  - id: EXT-015
-    title: "Clase 2 - metodologías (alcance anotado del primer parcial)"
-    type: external
-    path: "external/clase 2 - metodologias.pptx (2).pdf"
-    extracted: "extracted/EXT-015.md"
-  - id: EXT-016
-    title: "Clase 3 - productos digitales (alcance anotado del primer parcial)"
-    type: external
-    path: "external/clase 3 - productos digitales.pptx (1).pdf"
-    extracted: "extracted/EXT-016.md"
-  - id: EXT-017
-    title: "Clase 4 - estimadores (alcance anotado del primer parcial)"
-    type: external
-    path: "external/clase 4 estimadores v2 (1).pdf"
-    extracted: "extracted/EXT-017.md"
-  - id: EXT-018
-    title: "Clase 6 - calidad (alcance anotado del primer parcial)"
-    type: external
-    path: "external/clase 6 - calidad.pptx (1) (1).pdf"
-    extracted: "extracted/EXT-018.md"
+- id: OFF-011
+  title: Architectural Blueprints—The “4+1” View Model of Software Architecture
+  type: official
+  path: official/The_41_View_Model_of_Architecture.pdf
+  extracted: extracted/OFF-011.md
+- id: OFF-013
+  title: Clase 8 - Atributos de calidad
+  type: official
+  path: official/clase 8 - atributos de calidad.pdf
+  extracted: extracted/OFF-013.md
+- id: OFF-014
+  title: Clase 8 - Estilos de arquitectura
+  type: official
+  path: official/clase 8 - estilos de arquitectura.pptx.pdf
+  extracted: extracted/OFF-014.md
+- id: OFF-015
+  title: ATAM Case Study in Architecture Evaluation
+  type: official
+  path: official/ATAM-Case-study-in-Architecture-evaluation.pdf
+  extracted: extracted/OFF-015.md
+- id: OFF-016
+  title: Clase 11 - Persistencia
+  type: official
+  path: official/clase 11 - Persistencia.pdf
+  extracted: extracted/OFF-016.md
+- id: OFF-017
+  title: Clase 11 - Repaso Parcial 2
+  type: official
+  path: official/clase 11 - Repaso Parcial 2.pdf
+  extracted: extracted/OFF-017.md
+- id: OFF-018
+  title: Clase 12 - Arquitecturas de Integración 2026
+  type: official
+  path: official/clase 12 - Arquitecturas de Integración 2026.pdf
+  extracted: extracted/OFF-018.md
+- id: OFF-019
+  title: Clase 9 - Evaluación de arquitecturas
+  type: official
+  path: official/clase 9 - Evaluación de arquitecturas.pdf
+  extracted: extracted/OFF-019.md
+- id: EXT-001
+  title: Inge II - Apuntes
+  type: external
+  path: external/Inge II - Apuntes.docx
+  extracted: extracted/EXT-001.md
+- id: EXT-019
+  title: Inge II - Atributos de Calidad
+  type: external
+  path: external/Inge II - Atributos de Calidad.pdf
+  extracted: extracted/EXT-019.md
+- id: EXT-020
+  title: Inge II - Cheatsheet
+  type: external
+  path: external/Inge II - Cheatsheet.docx
+  extracted: extracted/EXT-020.md
+- id: PA-001
+  title: Caso Healthcare.gov - informe oficial
+  type: practical_assignment
+  path: practical-assignment/Caso Healthcare.gov - informe oficial.pdf
+  extracted: extracted/PA-001.md
+- id: PA-002
+  title: Caso Healthcare.gov
+  type: practical_assignment
+  path: practical-assignment/Caso Healthcare.gov.pdf
+  extracted: extracted/PA-002.md
+- id: PA-004
+  title: Cross Challenge Mayo 2026
+  type: practical_assignment
+  path: practical-assignment/Cross Challenge Mayo 2026.pdf
+  extracted: extracted/PA-004.md
+- id: PA-005
+  title: Ejercicio 2013
+  type: practical_assignment
+  path: practical-assignment/Ejercicio 2013.pdf
+  extracted: extracted/PA-005.md
+- id: PA-006
+  title: Inge II - Consignas Parcial
+  type: practical_assignment
+  path: practical-assignment/Inge II - Consignas Parcial.pdf
+  extracted: extracted/PA-006.md
+- id: PA-007
+  title: Inge II - Ejercicio de Parcial (Clase)
+  type: practical_assignment
+  path: practical-assignment/Inge II - Ejercicio de Parcial (Clase).pdf
+  extracted: extracted/PA-007.md
+- id: PA-008
+  title: Inge II - Parciales Viejos
+  type: practical_assignment
+  path: practical-assignment/Inge II - Parciales Viejos.docx
+  extracted: extracted/PA-008.md

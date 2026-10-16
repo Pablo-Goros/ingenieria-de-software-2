@@ -23,7 +23,7 @@ Before doing academic work:
 
 # Source authority
 
-official > external > general knowledge
+official = external > general knowledge
 
 Never present model knowledge as course material.
 
