@@ -41,7 +41,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
 
 ## Bloques
 
-1. [in progress] Arquitectura, contexto y requisitos significativos
+1. [covered] Arquitectura, contexto y requisitos significativos
    - **Alcance:** decisiones estructurales y de comportamiento; límites del
      sistema, stakeholders, requerimientos funcionales, atributos de calidad y
      restricciones. ASR, supuestos, incertidumbre, costo, plazos y ciclo
@@ -59,7 +59,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-001](../sources/extracted/EXT-001.md), «Introducción a la Arquitectura
      de Software» y «Architecture-Business Cycle (ABC)».
 
-2. [pending] Atributos de calidad de ejecución
+2. [in progress] Atributos de calidad de ejecución
    - **Alcance:** disponibilidad, confiabilidad, tolerancia a fallos, rendimiento,
      escalabilidad, interoperabilidad, administrabilidad, personalización,
      precisión, auditabilidad y seguridad. Distinguir latencia de throughput y
