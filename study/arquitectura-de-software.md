@@ -59,7 +59,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-001](../sources/extracted/EXT-001.md), «Introducción a la Arquitectura
      de Software» y «Architecture-Business Cycle (ABC)».
 
-2. [in progress] Atributos de calidad de ejecución
+2. [covered] Atributos de calidad de ejecución
    - **Alcance:** disponibilidad, confiabilidad, tolerancia a fallos, rendimiento,
      escalabilidad, interoperabilidad, administrabilidad, personalización,
      precisión, auditabilidad y seguridad. Distinguir latencia de throughput y
@@ -80,7 +80,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-001](../sources/extracted/EXT-001.md), «Calidad»;
      complementos C03 y C16.
 
-3. [pending] Calidad de diseño, del sistema y de la experiencia de uso
+3. [covered] Calidad de diseño, del sistema y de la experiencia de uso
    - **Alcance:** integridad conceptual, mantenibilidad y modificabilidad,
      portabilidad, reusabilidad, soportabilidad, testeabilidad o verificabilidad,
      accesibilidad y usabilidad. Alcance y diferencias entre nombres empleados
@@ -98,7 +98,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-019](../sources/extracted/EXT-019.md), p. 1;
      [EXT-001](../sources/extracted/EXT-001.md), «Calidad»; complemento C15.
 
-4. [pending] Escenarios medibles, prioridades y compromisos
+4. [covered] Escenarios medibles, prioridades y compromisos
    - **Alcance:** pasar de adjetivos generales a escenarios verificables;
      estímulo, origen, entorno, elemento afectado, respuesta y medida. Métrica,
      SLI, SLO y SLA; percentiles, ventanas de medición, carga y objetivos.
@@ -117,7 +117,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-001](../sources/extracted/EXT-001.md), «Attribute Driven Design»;
      complementos C02 y C03.
 
-5. [pending] Fundamentos de ejecución y recorrido de una solicitud
+5. [covered] Fundamentos de ejecución y recorrido de una solicitud
    - **Alcance:** proceso, hilo, memoria, disco, concurrencia, paralelismo y
      operaciones de entrada/salida. Cliente y servidor; IP, puertos, DNS,
      conexiones, HTTP y TLS. Ubicar latencia, recursos limitados, estado y
@@ -133,7 +133,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [OFF-014](../sources/extracted/OFF-014.md), pp. 14-15;
      complemento C01. La mecánica de redes requiere este complemento.
 
-6. [pending] Organización del software: módulos, capas y MVC
+6. [in progress] Organización del software: módulos, capas y MVC
    - **Alcance:** responsabilidades, interfaces, dependencias y encapsulación;
      cohesión y acoplamiento como criterios de diseño. Estilo arquitectónico,
      patrón y tecnología. Capas lógicas, distribución física, monolito modular
