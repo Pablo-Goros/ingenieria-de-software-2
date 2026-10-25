@@ -133,7 +133,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [OFF-014](../sources/extracted/OFF-014.md), pp. 14-15;
      complemento C01. La mecánica de redes requiere este complemento.
 
-6. [in progress] Organización del software: módulos, capas y MVC
+6. [covered] Organización del software: módulos, capas y MVC
    - **Alcance:** responsabilidades, interfaces, dependencias y encapsulación;
      cohesión y acoplamiento como criterios de diseño. Estilo arquitectónico,
      patrón y tecnología. Capas lógicas, distribución física, monolito modular
@@ -152,7 +152,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-001](../sources/extracted/EXT-001.md), «Estilos Arquitectónicos»
      y «Patrones a Nivel de Aplicación».
 
-7. [pending] Representación y comunicación: 4+1, C4 y decisiones
+7. [covered] Representación y comunicación: 4+1, C4 y decisiones
    - **Alcance:** vistas y puntos de vista; módulos, componentes y conectores,
      asignación. Las cinco perspectivas de 4+1, niveles de C4, diagramas UML
      asociados, diagramas dinámicos y de despliegue. Audiencia, alcance y
@@ -170,7 +170,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [OFF-014](../sources/extracted/OFF-014.md), pp. 2-17, 23;
      [EXT-001](../sources/extracted/EXT-001.md), unidad 3; complemento C04.
 
-8. [pending] APIs, contratos y modalidades de comunicación
+8. [covered] APIs, contratos y modalidades de comunicación
    - **Alcance:** API como interfaz; protocolos y formatos; HTTP, recursos,
      métodos, errores, idempotencia y compatibilidad. Relación entre API HTTP,
      REST y RPC. Comunicación síncrona y asíncrona; polling, WebSocket y webhook;
@@ -187,7 +187,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      entradas HTTP, Websockets y Webhooks; complementos C01 y C08.
      Ampliar el protocolo concreto al investigar el bloque.
 
-9. [pending] Entrada y distribución del tráfico
+9. [covered] Entrada y distribución del tráfico
    - **Alcance:** servidor web, proxy directo y reverso, balanceador, API
      gateway, BFF y CDN. Responsabilidades, recorrido y posible combinación;
      balanceo y health checks, terminación TLS, afinidad y estado de sesión;
@@ -205,7 +205,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-020](../sources/extracted/EXT-020.md), «Scalability»;
      complementos C01, C05 y C17. Profundizar CDN al investigar este bloque.
 
-10. [pending] Seguridad: amenazas, identidad y límites de confianza
+10. [in progress] Seguridad: amenazas, identidad y límites de confianza
     - **Alcance:** confidencialidad, integridad, disponibilidad y amenazas;
       autenticación, autorización, sesiones, tokens, JWT, MFA y mínimo privilegio.
       TLS, cifrado en reposo y gestión de secretos; firewall de red, reglas de
