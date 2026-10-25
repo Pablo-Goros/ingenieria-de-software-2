@@ -1,6 +1,6 @@
 # Plan de estudio: arquitectura de software y decisiones de diseño
 
-Study depth: heavy
+Study depth: medium
 
 ## Objetivo y alcance
 
@@ -205,7 +205,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
      [EXT-020](../sources/extracted/EXT-020.md), «Scalability»;
      complementos C01, C05 y C17. Profundizar CDN al investigar este bloque.
 
-10. [in progress] Seguridad: amenazas, identidad y límites de confianza
+10. [covered] Seguridad: amenazas, identidad y límites de confianza
     - **Alcance:** confidencialidad, integridad, disponibilidad y amenazas;
       autenticación, autorización, sesiones, tokens, JWT, MFA y mínimo privilegio.
       TLS, cifrado en reposo y gestión de secretos; firewall de red, reglas de
@@ -225,7 +225,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       complementos C08, C09 y C18. Investigar identidad y VPN con documentación
       específica antes de enseñar sus flujos en detalle.
 
-11. [pending] Persistencia: archivos, prevalencia, bases y ORM
+11. [covered] Persistencia: archivos, prevalencia, bases y ORM
     - **Alcance:** estado volátil y durable; serialización, archivos planos,
       estructurados, binarios e indexados. Recuperación mediante logs y
       snapshots en prevalencia; límites de memoria y concurrencia. Servicios
@@ -242,7 +242,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       [OFF-016](../sources/extracted/OFF-016.md), pp. 2-14, 23-24;
       [EXT-001](../sources/extracted/EXT-001.md), unidad 5 hasta «Bases de Datos».
 
-12. [pending] Bases relacionales, transacciones y concurrencia
+12. [covered] Bases relacionales, transacciones y concurrencia
     - **Alcance:** entidades, relaciones, claves, restricciones, normalización,
       joins e índices. ACID, invariantes, transacciones, aislamiento, anomalías,
       bloqueos y control optimista; fallas de serialización y reintentos.
@@ -259,7 +259,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       complemento C07, §13.2. Profundizar índices y planes de consulta con la
       documentación del motor durante la investigación del bloque.
 
-13. [pending] Modelos no relacionales y elección del almacenamiento
+13. [in progress] Modelos no relacionales y elección del almacenamiento
     - **Alcance:** documentos, clave-valor, familias de columnas, grafos y series
       temporales; distinguirlos del almacenamiento columnar analítico. Índices
       de búsqueda y búsqueda vectorial como necesidades específicas. Patrones
