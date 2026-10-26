@@ -39,6 +39,30 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
   cuando no queden confusiones importantes. Las preguntas pendientes mantienen
   el estado actual. Guardar aquí solamente los estados de cobertura.
 
+## Formato práctico de cada bloque
+
+Trabajar cada bloque como una instancia breve de diseño de arquitectura sobre
+el caso conductor u otro caso de examen. Empezar por una explicacion teorica 
+de los conceptos relacionados al bloque, incluir ejemplos concretos, pros y 
+cons. Continuar con una consigna concreta con requisitos, restricciones y un
+cambio o falla; pedir primero una propuesta del estudiante. El entregable 
+debe corresponder al tema: por ejemplo, un diagrama de contexto, componentes 
+o despliegue; un recorrido de datos o solicitudes; una decisión
+registrada; una política de consistencia; o escenarios de calidad medibles.
+
+Para cada ejercicio, justificar los componentes y las interacciones por los
+requisitos, explicitar una alternativa y sus costos, recorrer al menos un caso
+normal y uno de falla o cambio, y señalar qué evidencia permitiría validar la
+propuesta. Revisar con estos criterios: cobertura de requisitos, coherencia de
+límites y responsabilidades, tratamiento de fallas y datos, trade-offs
+explícitos y claridad de la representación. No se espera una única arquitectura
+correcta: se evalúa que la propuesta responda a la consigna y que su defensa sea
+consistente.
+
+Al cerrar el bloque, dejar una síntesis breve del patrón de razonamiento. Las
+preguntas de cada bloque sirven como ejercicios base y se pueden ampliar a partir 
+de este formato sin alterar la profundidad guardada.
+
 ## Bloques
 
 1. [covered] Arquitectura, contexto y requisitos significativos
@@ -259,7 +283,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       complemento C07, §13.2. Profundizar índices y planes de consulta con la
       documentación del motor durante la investigación del bloque.
 
-13. [in progress] Modelos no relacionales y elección del almacenamiento
+13. [covered] Modelos no relacionales y elección del almacenamiento
     - **Alcance:** documentos, clave-valor, familias de columnas, grafos y series
       temporales; distinguirlos del almacenamiento columnar analítico. Índices
       de búsqueda y búsqueda vectorial como necesidades específicas. Patrones
@@ -277,7 +301,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       «Búsquedas»; complementos C06 y C07. Grafos, series temporales y las
       diferencias internas de modelos requieren el complemento C06.
 
-14. [pending] Caché, frescura e invalidación
+14. [covered] Caché, frescura e invalidación
     - **Alcance:** caché local y compartida, claves, hit y miss, TTL y expulsión;
       cache-aside y comparación con otras políticas de lectura y escritura.
       Datos obsoletos, invalidación concurrente, arranque en frío y avalanchas
@@ -292,7 +316,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       [EXT-020](../sources/extracted/EXT-020.md), «Bucket de Soluciones» y
       «Performance»; complemento C10, especialmente «Problems and considerations».
 
-15. [pending] Replicación, particionamiento y consistencia distribuida
+15. [covered] Replicación, particionamiento y consistencia distribuida
     - **Alcance:** escalamiento vertical y horizontal; réplicas, primario-secundario,
       múltiples escritores, sincronización, failover y retraso de replicación.
       Sharding, claves de partición, localidad, hotspots y consultas entre shards.
@@ -309,7 +333,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       «Alternativas de Bases Relacionales» y unidad 6, como caso histórico;
       complementos C06, C07 y C11, §2 y §4.
 
-16. [pending] Procesamiento de datos, analítica y eventos
+16. [covered] Procesamiento de datos, analítica y eventos
     - **Alcance:** OLTP y OLAP, reporting, data warehouse, ETL y costo de
       agregaciones. Batch secuencial, pipes and filters y flujo continuo.
       Productores, canales y consumidores; procesamiento individual, de
@@ -327,7 +351,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       [OFF-016](../sources/extracted/OFF-016.md), pp. 11, 23-25;
       [OFF-017](../sources/extracted/OFF-017.md), p. 7; complemento C06.
 
-17. [pending] Mensajería, colas, publicación-suscripción y garantías
+17. [covered] Mensajería, colas, publicación-suscripción y garantías
     - **Alcance:** broker, pub-sub, forwarder-receiver y client-dispatcher-server
       del curso; colas de trabajo, consumidores competidores, tópicos y logs de
       eventos. Persistencia, confirmaciones, reentrega, orden, retención,
@@ -345,7 +369,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       [EXT-020](../sources/extracted/EXT-020.md), entrada «Queues»;
       complemento C12, patrones y sección de garantías de Kafka.
 
-18. [pending] Integración, SOA y procesos de negocio
+18. [covered] Integración, SOA y procesos de negocio
     - **Alcance:** integración punto a punto, adapters, middleware, hub y ESB;
       contratos y granularidad de servicios, registro y descubrimiento.
       SOA, composición, orquestación y coreografía; BPM y BAM; gobierno de
@@ -360,7 +384,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       [OFF-018](../sources/extracted/OFF-018.md), pp. 2-12;
       [EXT-001](../sources/extracted/EXT-001.md), «SOA» y «Servicios».
 
-19. [pending] Monolitos y microservicios: límites técnicos y organizacionales
+19. [covered] Monolitos y microservicios: límites técnicos y organizacionales
     - **Alcance:** artefacto de despliegue, modularidad, autonomía de equipos y
       capacidades del negocio. Descomposición por subdominios, propiedad de
       datos, dependencias entre servicios, madurez operativa y DevOps.
@@ -376,7 +400,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       [EXT-001](../sources/extracted/EXT-001.md), «Microservicios» y
       «Patrones a Nivel de Aplicación».
 
-20. [pending] Datos entre servicios: 2PC, sagas, CQRS y event sourcing
+20. [covered] Datos entre servicios: 2PC, sagas, CQRS y event sourcing
     - **Alcance:** propiedad e invariantes, transacción local y distribuida,
       coordinación en dos fases, bloqueo y recuperación. Sagas orquestadas o
       coreografiadas, compensaciones e irreversibilidad. Agregados, modelos de
@@ -394,7 +418,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       complemento C13. La mecánica completa de 2PC y outbox requiere investigación
       primaria adicional al enseñar este bloque.
 
-21. [pending] Resiliencia y control de la sobrecarga
+21. [covered] Resiliencia y control de la sobrecarga
     - **Alcance:** fallas parciales, timeouts y deadlines; reintentos limitados,
       backoff y jitter; idempotencia y resultado incierto de una operación.
       Circuit breaker, aislamiento de recursos, backpressure, límites de
@@ -410,7 +434,7 @@ sigue dependencias; cada bloque puede requerir varias sesiones breves.
       complemento C14, «Timeouts», «Retries and backoff» y «Jitter»;
       C12 para presión de consumidores y C03 para observación.
 
-22. [pending] Despliegue y ejecución: infraestructura y abstracciones
+22. [in progress] Despliegue y ejecución: infraestructura y abstracciones
     - **Alcance:** on-premise y cloud, responsabilidades operativas, regiones y
       dominios de falla; máquinas físicas, virtuales, contenedores y serverless.
       Imágenes, procesos, configuración, secretos y volúmenes; Kubernetes,
@@ -667,3 +691,4 @@ Comenzar con study-block en el bloque 1. El estado inicial indica el próximo
 bloque a trabajar; no implica que ya se haya impartido o evaluado. Tras el
 último bloque, discutir las preguntas de integración antes de marcar el
 recorrido completo.
+
