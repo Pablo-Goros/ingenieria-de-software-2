@@ -89,3 +89,8 @@ sources:
   type: practical_assignment
   path: practical-assignment/Inge II - Parciales Viejos.docx
   extracted: extracted/PA-008.md
+- id: PA-009
+  title: "Inge II - Parcial Resuelto (1C2026): Red de hospitales"
+  type: practical_assignment
+  path: practical-assignment/Inge II - Parcial Resuelto (1C2026).pdf
+  extracted: extracted/PA-009.md

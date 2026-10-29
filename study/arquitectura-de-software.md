@@ -434,7 +434,7 @@ de este formato sin alterar la profundidad guardada.
       complemento C14, «Timeouts», «Retries and backoff» y «Jitter»;
       C12 para presión de consumidores y C03 para observación.
 
-22. [in progress] Despliegue y ejecución: infraestructura y abstracciones
+22. [covered] Despliegue y ejecución: infraestructura y abstracciones
     - **Alcance:** on-premise y cloud, responsabilidades operativas, regiones y
       dominios de falla; máquinas físicas, virtuales, contenedores y serverless.
       Imágenes, procesos, configuración, secretos y volúmenes; Kubernetes,
@@ -453,7 +453,7 @@ de este formato sin alterar la profundidad guardada.
       complemento C19. Profundizar serverless y service mesh con documentación
       del producto elegido durante el bloque.
 
-23. [pending] Operación, observabilidad y recuperación
+23. [covered] Operación, observabilidad y recuperación
     - **Alcance:** métricas, logs, trazas, correlación, alertas y experiencia de
       usuario; SLI y SLO en producción, presupuesto de errores y capacidad.
       Redundancia, backups, restauración, recuperación ante desastres y objetivos
@@ -473,7 +473,7 @@ de este formato sin alterar la profundidad guardada.
       C03. Recuperación y estrategias de despliegue requieren investigación
       primaria adicional: las fuentes del curso sólo aportan cobertura parcial.
 
-24. [pending] Diseño y evaluación: ADD, árbol de utilidad y ATAM
+24. [in progress] Diseño y evaluación: ADD, árbol de utilidad y ATAM
     - **Alcance:** transformación de drivers en arquitectura candidata;
       adaptación docente de ADD y contraste con la evaluación. Escenarios,
       checklists, métricas, prototipos, simulaciones y modelos. Árbol de utilidad,
